@@ -65,4 +65,22 @@ section { display: flex; }
   border: 0;
   padding: 0;
 }
-
+.nav-list {
+  padding-left: 0;
+  width: 575px;
+  margin-top: 10px;
+}
+.profile {
+  margin-left: auto;
+}
+.account {
+  text-align: right;
+  padding: 15px;
+  font-color: #364147;
+  font-size: 18px;
+}
+.profile-pic {
+  size: 60x60;
+  border-radius: 100px;
+  max-width: 100%;
+}
