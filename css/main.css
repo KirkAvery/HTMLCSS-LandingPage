@@ -41,7 +41,8 @@ section { display: flex; }
   color: #a0a0a0;
 }
 .brand {
-  size: 170x85px;
+  width: 170px;
+  height: 85px;
   margin-left: -15px;
   margin-right: 60px;
 }
@@ -50,18 +51,16 @@ section { display: flex; }
   height: auto;
 }
 .search-box {
-  size: 330x30px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-left: 12px;
-  padding-right: 12px;
-  border: 1px;
-  color: #a0a0a0;
+  width: 330px;
+  height: 30px;
+  padding: 6px 12px;
+  border: 1px solid #a0a0a0;
 }
 .search-button {
   background-color: #a0a0a0;
-  text-color: #ffffff;
-  size: 100x30px;
+  color: #ffffff;
+  width: 100px;
+  height: 30px;
   border: 0;
   padding: 0;
 }
@@ -70,17 +69,29 @@ section { display: flex; }
   width: 575px;
   margin-top: 10px;
 }
+.nav-list li a {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
 .profile {
   margin-left: auto;
 }
 .account {
   text-align: right;
   padding: 15px;
-  font-color: #364147;
+  color: #364147;
   font-size: 18px;
 }
+.account a {
+  font-size: 14px;
+}
 .profile-pic {
-  size: 60x60;
+  width: 60px;
+  height: 60px;
+}
+.profile-pic img {
   border-radius: 100px;
   max-width: 100%;
 }
