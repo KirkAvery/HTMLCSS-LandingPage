@@ -95,3 +95,27 @@ section { display: flex; }
   border-radius: 100px;
   max-width: 100%;
 }
+.hero {
+  background-image: 400px;
+  background-size: cover;
+  background-position: center;
+  text-transform: uppercase;
+}
+.hero h1 {
+  position: -30px;
+  font-size: 63px;
+  font-weight: 700px;
+  line-height: 0.9px;
+}
+.hero h2 {
+  text-color: #faa541;
+  font-size: 63px;
+  font-weight: 700px;
+  line-height: 0.9px;
+}
+.hero p {
+  margin: 0px 0px 10px
+  font-spacing: 2px;
+  font-weight: 700;
+  font-size: 21px;
+}
